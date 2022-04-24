@@ -1,8 +1,8 @@
 const axios = require('axios')
 
-module.exports.register = (email, password) => {
+module.exports.register = (fullname, email) => {
     return new Promise((resolve, reject) => {
-        axios.post('http://localhost:5000/register/generate', { email, password })
+        axios.post('http://localhost:5000/register/generate', { "fullname": fullname, "email": email })
             .then((res) => {
                 const { refreshToken } = res.data
                 localStorage.setItem('refreshToken', refreshToken)
