@@ -166,26 +166,13 @@ label {
 .btn-bg {
   height: 150px;
   width: 150px;
-  border: 1.5px solid #0db8de;
+  border: 3px solid #0db8de;
   border-radius: 5px;
 }
 
 .modal-body {
   height: 100%;
   width: 100%;
-<<<<<<< HEAD
-  /* width: 89.2rem; */
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.modal-body container {
-  justify-content: center;
-  display: flex;
-  align-items: center;
-
-=======
 }
 
 .panel {
@@ -195,25 +182,16 @@ label {
 .modal-container {
   height: 100%;
   width: 100%;
->>>>>>> aa88c9665bc2f67ba5051ef42ef64e308a607d92
 }
 
 .modal-header {
   border-bottom: 3px solid #0db8de;
-<<<<<<< HEAD
-  height: 69px;
-=======
   height: 60px;
->>>>>>> aa88c9665bc2f67ba5051ef42ef64e308a607d92
 }
 
 .modal-footer {
   border-top: 3px solid #0db8de;
   height: 69px;
-<<<<<<< HEAD
-  /* background-color: green; */
-=======
->>>>>>> aa88c9665bc2f67ba5051ef42ef64e308a607d92
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -227,12 +205,6 @@ label {
   color: #0db8de;
 }
 
-<<<<<<< HEAD
-.img-button {
-  height: 120px;
-  width: 120px;
-}
-=======
 .footer-btn {
   margin-top: -3px;
   height: 100%;
@@ -241,4 +213,8 @@ label {
 .footer-btn button {
   margin-right: 1rem;
 }
->>>>>>> aa88c9665bc2f67ba5051ef42ef64e308a607d92
+
+.img-button {
+  height: 120px;
+  width: 120px;
+}
