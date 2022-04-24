@@ -124,14 +124,15 @@ label {
 }
 
 .modal-parent {
+  height: 60vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .modal-style {
-  height: 30rem;
-  min-width: 90rem;
+  height: 40rem;
+  min-width: 50rem;
   background: #222d32;
 }
 
@@ -164,26 +165,34 @@ label {
 
 .btn-bg {
   background: url("https://source.unsplash.com/190x190/?technology");
-  height: 190px;
-  width: 190px;
+  height: 150px;
+  width: 150px;
   border: 3px solid #0db8de;
   border-radius: 5px;
 }
 
 .modal-body {
   height: 100%;
-  width: 89.2rem;
-  display: flex;
+  width: 100%;
+  /* width: 89.2rem; */
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
 }
 
 .modal-header {
   border-bottom: 3px solid #0db8de;
+  height:69px;
 }
 
 .modal-footer {
   border-top: 3px solid #0db8de;
+  height:69px;
+  /* background-color: green; */
+  display: flex;
+  /* flex-direction: row-reverse; */
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .custom-control-label {
@@ -192,5 +201,4 @@ label {
 
 .forgot-password {
   color: #0db8de;
-
 }
