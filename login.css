@@ -167,7 +167,7 @@ label {
   /* background: url("https://source.unsplash.com/190x190/?technology"); */
   height: 150px;
   width: 150px;
-  border: 3px solid #0db8de;
+  border: 1.5px solid #0db8de;
   border-radius: 5px;
 }
 
@@ -175,19 +175,26 @@ label {
   height: 100%;
   width: 100%;
   /* width: 89.2rem; */
-  /* display: flex;
+  display: flex;
   justify-content: space-between;
-  align-items: center; */
+  align-items: center;
+}
+
+.modal-body container {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+
 }
 
 .modal-header {
   border-bottom: 3px solid #0db8de;
-  height:69px;
+  height: 69px;
 }
 
 .modal-footer {
   border-top: 3px solid #0db8de;
-  height:69px;
+  height: 69px;
   /* background-color: green; */
   display: flex;
   /* flex-direction: row-reverse; */
@@ -201,4 +208,9 @@ label {
 
 .forgot-password {
   color: #0db8de;
+}
+
+.img-button {
+  height: 120px;
+  width: 120px;
 }
