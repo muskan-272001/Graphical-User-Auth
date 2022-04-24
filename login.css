@@ -8,7 +8,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 30rem;
+  height: 39rem;
   width: 32rem;
   background: #1a2226;
   text-align: center;
@@ -37,7 +37,7 @@ body {
 }
 
 .login-form {
-  margin-top: 25px;
+  margin-top: 0px;
   text-align: left;
 }
 
@@ -181,6 +181,16 @@ label {
 .modal-header {
   border-bottom: 3px solid #0db8de;
 }
+
 .modal-footer {
   border-top: 3px solid #0db8de;
+}
+
+.custom-control-label {
+  color: #0db8de;
+}
+
+.forgot-password {
+  color: #0db8de;
+
 }
