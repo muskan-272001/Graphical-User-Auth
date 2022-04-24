@@ -164,7 +164,7 @@ label {
 }
 
 .btn-bg {
-  background: url("https://source.unsplash.com/190x190/?technology");
+  /* background: url("https://source.unsplash.com/190x190/?technology"); */
   height: 150px;
   width: 150px;
   border: 3px solid #0db8de;
